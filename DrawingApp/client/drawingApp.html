@@ -1,0 +1,77 @@
+<head>
+  <title>1-wall</title>
+</head>
+
+<body>
+<h1> THE WALL</h1><p>By: Jason McMannis</p>
+{{> canvas}}
+{{> wall}}  
+</body>
+
+<template name="wall">
+<div class="container btn-container">
+  <button class='clear'>
+    <span class="glyphicon glyphicon-trash"></span>
+  </button> 
+  &nbsp;
+  &nbsp;
+  <button class='thicker'>
+    <span class="glyphicon glyphicon-plus"></span>
+  </button>
+  <button class='thinner'>
+    <span class="glyphicon glyphicon-minus"></span>
+  </button> 
+  &nbsp;
+  &nbsp;
+  <button class='black'>
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+  <button class='red' style= "10px; color: #FF0000;" >
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+  <button class='orange' style= "10px; color: #FFA500;">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+  <button class='yellow' style= "10px; color: #FFFF00;">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+  <button class='lime' style= "10px; color: #00FF00;">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+  <button class='green' style= "10px; color: #008000">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+  <button class='blue' style= "10px; color: #0000FF">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+ <button class='navy' style= "10px; color: #000080">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+ <button class='lightblue' style= "10px; color: #87CEFA">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+ <button class='grey' style= "10px; color: #808080">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+ <button class='maroon' style= "10px; color: #800000">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+ <button class='purple' style= "10px; color: #800080">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+ <button class='pink' style= "10px; color: #FFC0CB">
+    <span class="glyphicon glyphicon-tint"></span>
+  </button>
+ </div> 
+  
+<!--<div class="slider-container" id="myid">
+      <div class="slider" id="slider"></div>
+</div>
+<br>
+    <span class="current-speed">Thickness = </span><span class="slider-value">{{sliderValue}}</span>-->
+
+</template>
+
+<template name="canvas">
+  <div id='canvas'></div>
+</template>
